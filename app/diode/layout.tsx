@@ -9,11 +9,11 @@ export default function InductorLayout({
   return (
     <>
       <SubNav />
+
       <article>
           <header className="top-header center red">
-          <h1>Inductor</h1>
+          <h1>Diode</h1>
         </header>
-
         {children}
       </article>
     </>

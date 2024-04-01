@@ -20,3 +20,8 @@
   background-color: rgb(131, 103, 103);
 }
 
+.selectedItem,.subnavbtn{
+  background-color: steelblue;
+  color: white;
+  border:2px solid green;
+}
