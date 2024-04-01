@@ -38,31 +38,31 @@ export default function TestPage() {
           wire wound into a coil around a core forms an inductor.
         </p>
         <p>
-          For Inductor Test, test the inductor's resistance which determines the
-          inductor's health, Put a multimeter set to the ohmmeter setting.
+          For Inductor Test, test the inductor&apos;s resistance which determines the
+          inductor&apos;s health, Put a multimeter set to the ohmmeter setting.
         </p>
         <p>
-          By calculating the inductor's resistance, we can check whether the
+          By calculating the inductor&apos;s resistance, we can check whether the
           inductor is good or not.
         </p>
         <ol>
           <li>
             Take the probes of the multimeter and plug them across the ends of
-            the inductor. The direction of the inductor doesn't matter, as
-            resistance isn't polarized.
+            the inductor. The direction of the inductor doesn&apos;t matter, as
+            resistance isn&apos;t polarized.
           </li>
           <li>
-            If the inductor's resistance is very low across its terminals which
+            If the inductor&apos;s resistance is very low across its terminals which
             is only a few ohms greater than 1Ωand normally less than 10Ω, then
             it is a good inductor.
           </li>
           <li>
-            If an inductor's resistance is high, then it is defective and it
+            If an inductor&apos;s resistance is high, then it is defective and it
             must be replaced in the circuit.
           </li>
           <li>
             If an inductor reads very, very small resistance, less than an ohm
-            (very close to 0Ω), this may be a sign that it's shorted.
+            (very close to 0Ω), this may be a sign that it&apos;s shorted.
           </li>
           <li>Outside the range of 1Ω to 10Ω, an inductor is generally bad.</li>
         </ol>
