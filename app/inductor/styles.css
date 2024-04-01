@@ -11,3 +11,16 @@
 header>h1{
   width: 50%;
 }
+
+.cards{
+  display: flex;
+  flex-direction: column;
+
+}
+.card{
+  flex:1;
+  border:2px solid brown;
+  border-left: 10px solid brown;
+  padding-left:1rem;
+  margin-top: 1rem;
+}

@@ -60,6 +60,38 @@ export default function Nav() {
               </button>
             </Link>
           </div>
+          <div className="subnav">
+            <Link href="/capacitor/introduction/">
+              <button
+                className={`${
+                  pathname === "/capacitor/introduction/" ||
+                  pathname === "/capacitor/test/" ||
+                  pathname === "/capacitor/pictures/" ||
+                  pathname === "/capacitor/links/"
+                    ? "selectedItem"
+                    : ""
+                }`}
+              >
+                Capacitor <i className="fa fa-caret-down" />
+              </button>
+            </Link>
+          </div>
+             <div className="subnav">
+            <Link href="/transistor/introduction/">
+              <button
+                className={`${
+                  pathname === "/transistor/introduction/" ||
+                  pathname === "/transistor/test/" ||
+                  pathname === "/transistor/pictures/" ||
+                  pathname === "/transistor/links/"
+                    ? "selectedItem"
+                    : ""
+                }`}
+              >
+                Transistor <i className="fa fa-caret-down" />
+              </button>
+            </Link>
+          </div>
         </div>
       </>
     </>
