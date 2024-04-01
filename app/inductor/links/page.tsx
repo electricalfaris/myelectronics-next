@@ -7,6 +7,8 @@ export default function LinksPage() {
     <ul>
       <li>Measuring Inductance With a Multimeter and a Resistor - instructables.com <a href="https://www.instructables.com/Measuring-Inductance-With-a-Multimeter-and-a-Resis/">Link</a></li>
 <li>Learning about Electronics - learningaboutelectronics.com <a href="http://www.learningaboutelectronics.com/Articles/How-to-test-an-inductor">Link</a></li>
+<li>How to Measure Inductance - <code>wikiHow.com</code><a href="https://www.wikihow.com/Measure-Inductance"></a></li>
+   
     </ul>
     </>
   )
