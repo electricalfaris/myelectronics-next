@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h3>Home</h3>
+      <div className="card">Select An Electronic Component From The Menu</div>
     </main>
   );
 }

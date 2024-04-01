@@ -1,5 +1,5 @@
-
 import "./styles.css";
+import SubNav from "./SubNav";
 
 export default function InductorLayout({
   children,
@@ -8,7 +8,7 @@ export default function InductorLayout({
 }>) {
   return (
     <>
-      
+      <SubNav />
       <article>{children}</article>
     </>
   );
