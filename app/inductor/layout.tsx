@@ -1,4 +1,4 @@
-import SideNav from "./SideNav";
+
 import "./styles.css";
 
 export default function InductorLayout({
@@ -8,8 +8,8 @@ export default function InductorLayout({
 }>) {
   return (
     <>
-      <SideNav />
-      <main>{children}</main>
+      
+      <article>{children}</article>
     </>
   );
 }
