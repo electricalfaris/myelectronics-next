@@ -12,6 +12,22 @@ export default function Nav() {
         {/* The navigation menu */}
         <div className="navbar">
           <Link href="/">Home</Link>
+            <div className="subnav">
+            <Link href="/resistor/introduction/">
+              <button
+                className={`${
+                  pathname === "/resistor/introduction/" ||
+                  pathname === "/resistor/test/" ||
+                  pathname === "/resistor/pictures/" ||
+                  pathname === "/resistor/links/"
+                    ? "selectedItem"
+                    : ""
+                }`}
+              >
+                Resistor <i className="fa fa-caret-down" />
+              </button>
+            </Link>
+          </div>
           <div className="subnav">
             <Link href="/inductor/introduction/">
               <button
@@ -76,7 +92,7 @@ export default function Nav() {
               </button>
             </Link>
           </div>
-             <div className="subnav">
+          <div className="subnav">
             <Link href="/transistor/introduction/">
               <button
                 className={`${
@@ -89,6 +105,22 @@ export default function Nav() {
                 }`}
               >
                 Transistor <i className="fa fa-caret-down" />
+              </button>
+            </Link>
+          </div>
+          <div className="subnav">
+            <Link href="/led/introduction/">
+              <button
+                className={`${
+                  pathname === "/led/introduction/" ||
+                  pathname === "/led/test/" ||
+                  pathname === "/led/pictures/" ||
+                  pathname === "/led/links/"
+                    ? "selectedItem"
+                    : ""
+                }`}
+              >
+                Led <i className="fa fa-caret-down" />
               </button>
             </Link>
           </div>
