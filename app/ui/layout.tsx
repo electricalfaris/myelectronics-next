@@ -1,20 +1,14 @@
 import "@/app/globals.css";
-// import SubNav from "./SubNav";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Layout({
+export default function UiLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <>
-      {/* <SubNav /> */}
-import "@/app/globals.css";
-
-      <article>
-       
-        {children}
-      </article>
+      {children}
     </>
   );
 }

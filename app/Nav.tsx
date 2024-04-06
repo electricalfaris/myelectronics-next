@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import "./globals.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -8,48 +8,41 @@ export default function Nav() {
   const pathname = usePathname();
   return (
     <>
-      <>
-        {/* The navigation menu */}
-        <div className="navbar">
-          <Link href="/">
-            Home - <code>myelectronics-next</code>
-          </Link>
-          <div className="subnav">
-            <Link href="/ui/resistor/">
-              <button
-                className={`${
-                  pathname === "ui/resistor/" ||
-                  pathname === "/resistor/test/" ||
-                  pathname === "/resistor/pictures/" ||
-                  pathname === "/resistor/links/"
-                    ? "selectedItem"
-                    : ""
-                }`}
-              >
-                Resistor <i className="fa fa-caret-down" />
-              </button>
-            </Link>
-          </div>
-     
-          <div className="subnav">
-            <Link href="/diode/introduction/">
-              <button
-                className={`${
-                  pathname === "/diode/introduction/" ||
-                  pathname === "/diode/test/" ||
-                  pathname === "/diode/pictures/" ||
-                  pathname === "/diode/links/"
-                    ? "selectedItem"
-                    : ""
-                }`}
-              >
-                Diode <i className="fa fa-caret-down" />
-              </button>
-            </Link>
-          </div>
-
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a className="navbar-brand" href=" ">
+          myeletronics-next
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbartogglerdemo02"
+          aria-controls="navbartogglerdemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
+        <div className="collapse navbar-collapse" id="navbartogglerdemo02">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <a className="nav-link" href=" ">
+                Resistor
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href=" ">
+                Diode
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href=" ">
+                My Projects
+              </a>
+            </li>
+          </ul>
         </div>
-      </>
+      </nav>
     </>
   );
 }
