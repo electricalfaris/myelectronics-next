@@ -15,7 +15,7 @@ export default function Nav() {
             Home - <code>myelectronics-next</code>
           </Link>
           <div className="subnav">
-            <Link href="@/ui/resistor/">
+            <Link href="/ui/resistor/">
               <button
                 className={`${
                   pathname === "ui/resistor/" ||
