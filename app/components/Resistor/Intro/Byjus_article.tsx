@@ -1,4 +1,5 @@
-import "./custom.css";
+import "/app/styles/custom.css";
+
 
 
 export default function Byjus_article() {

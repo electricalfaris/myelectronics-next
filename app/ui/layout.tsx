@@ -1,4 +1,4 @@
-import "./styles.css";
+import "@/app/globals.css";
 import SubNav from "./SubNav";
 
 export default function InductorLayout({
