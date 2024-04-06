@@ -1,19 +1,18 @@
 import "@/app/globals.css";
-import SubNav from "./SubNav";
+// import SubNav from "./SubNav";
 
-export default function InductorLayout({
+export default function Layout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <>
-      <SubNav />
+      {/* <SubNav /> */}
+import "@/app/globals.css";
 
       <article>
-          <header className="top-header center red">
-          <h1>Capacitor</h1>
-        </header>
+       
         {children}
       </article>
     </>
