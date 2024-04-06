@@ -3040,5 +3040,8 @@ body,html {
     font-size: .75rem;
     font-weight: 700
 }
-
-/*# sourceMappingURL=5.chunk.4df14.css.map*/
+h4{
+    font-size: 2rem;
+    border-left:8px solid blueviolet;
+    padding-left: 1rem;
+}

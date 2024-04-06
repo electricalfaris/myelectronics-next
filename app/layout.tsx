@@ -18,6 +18,7 @@ export default function RootLayout({
       <body>
         <div className="page-wrapper">
           <Nav />
+          
           {children}
         </div>
       </body>
