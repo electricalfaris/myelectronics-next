@@ -13,7 +13,7 @@ export default function ResistorIntroduction() {
   return (
     <>
       <header>
-        <h1>What Is A Resistor?</h1>
+        <h1>What Is A Diode?</h1>
       </header>
       <div className="container">
         <div className="accordion" id="accordionExample">
