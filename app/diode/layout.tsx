@@ -1,7 +1,7 @@
 import "./styles.css";
 import SubNav from "./SubNav";
 
-export default function InductorLayout({
+export default function DiodeLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

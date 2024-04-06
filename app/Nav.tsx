@@ -11,7 +11,7 @@ export default function Nav() {
       <>
         {/* The navigation menu */}
         <div className="navbar">
-          <Link href="/">Home</Link>
+          <Link href="/">Home - <code>myelectronics-next</code></Link>
             <div className="subnav">
             <Link href="/resistor/introduction/">
               <button
