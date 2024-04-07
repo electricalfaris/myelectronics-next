@@ -3,11 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { componentsTypes } from "@/app/lib/definitions";
 
-export default function SideNav({
-  selectedComponent: selectedComponent,
-}: {
-  selectedComponent: componentsTypes;
-}) {
+export default function SideNav(selectedComponent: string) {
   //  1: Intro, 2: Links, 3: Pictures, 4: Test
   const [curSection, setCurSection] = useState(1);
   const changeSection = (section: number) => {
