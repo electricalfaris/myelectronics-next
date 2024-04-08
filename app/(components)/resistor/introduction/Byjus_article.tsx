@@ -1,5 +1,8 @@
 import "./custom.css";
-
+import img_1 from "./1.png";
+import img_2 from "./2.png";
+import img_3 from "./3.png";
+import Image from "next/image";
 
 export default function Byjus_article() {
   return (
@@ -404,17 +407,12 @@ export default function Byjus_article() {
                                 Resistors in Series Formula
                               </span>
                             </h3>
-                            <table width={719}>
-                              <tbody>
-                                <tr>
-                                  <td style={{ textAlign: "center" }}>
-                                    R<sub>total</sub> = R<sub>1</sub>&nbsp;+ R
-                                    <sub>2</sub>&nbsp;+ R<sub>3</sub> +……+R
-                                    <sub>n</sub>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
+                              <Image
+                              src={img_1}
+                              width={500}
+                              height={50}
+                              alt="Resistors in Series Formula"
+                              />
                             <p>Where,</p>
                             <ul>
                               <li>
@@ -440,776 +438,19 @@ export default function Byjus_article() {
                                     Resistors in Parallel Formula
                                   </span>
                                 </h3>
-                                <table width={706}>
-                                  <tbody>
-                                    <tr>
-                                      <td style={{ textAlign: "center" }}>
-                                        <div className="mathjax-scroll">
-                                          <mjx-container
-                                            className="MathJax CtxtMenu_Attached_0"
-                                            jax="CHTML"
-                                            tabIndex={0}
-                                            ctxtmenu_counter={0}
-                                            style={{
-                                              fontSize: "123.9%",
-                                              position: "relative",
-                                            }}
-                                          >
-                                            <mjx-math
-                                              className="MJX-TEX"
-                                              aria-hidden="true"
-                                            >
-                                              <mjx-mtable
-                                                style={{ minWidth: "12.743em" }}
-                                              >
-                                                <mjx-table>
-                                                  <mjx-itable>
-                                                    <mjx-mtr>
-                                                      <mjx-mtd
-                                                        style={{
-                                                          textAlign: "left",
-                                                        }}
-                                                      >
-                                                        <mjx-mfrac>
-                                                          <mjx-frac>
-                                                            <mjx-num>
-                                                              <mjx-nstrut />
-                                                              <mjx-mn
-                                                                className="mjx-n"
-                                                                size="s"
-                                                              >
-                                                                <mjx-c className="mjx-c31" />
-                                                              </mjx-mn>
-                                                            </mjx-num>
-                                                            <mjx-dbox>
-                                                              <mjx-dtable>
-                                                                <mjx-line />
-                                                                <mjx-row>
-                                                                  <mjx-den>
-                                                                    <mjx-dstrut />
-                                                                    <mjx-msub size="s">
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D445 TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-script
-                                                                        style={{
-                                                                          verticalAlign:
-                                                                            "-0.15em",
-                                                                        }}
-                                                                      >
-                                                                        <mjx-texatom
-                                                                          size="s"
-                                                                          texclass="ORD"
-                                                                        >
-                                                                          <mjx-mi className="mjx-i">
-                                                                            <mjx-c className="mjx-c1D461 TEX-I" />
-                                                                          </mjx-mi>
-                                                                          <mjx-mi className="mjx-i">
-                                                                            <mjx-c className="mjx-c1D45C TEX-I" />
-                                                                          </mjx-mi>
-                                                                          <mjx-mi className="mjx-i">
-                                                                            <mjx-c className="mjx-c1D461 TEX-I" />
-                                                                          </mjx-mi>
-                                                                          <mjx-mi className="mjx-i">
-                                                                            <mjx-c className="mjx-c1D44E TEX-I" />
-                                                                          </mjx-mi>
-                                                                          <mjx-mi className="mjx-i">
-                                                                            <mjx-c className="mjx-c1D459 TEX-I" />
-                                                                          </mjx-mi>
-                                                                        </mjx-texatom>
-                                                                      </mjx-script>
-                                                                    </mjx-msub>
-                                                                  </mjx-den>
-                                                                </mjx-row>
-                                                              </mjx-dtable>
-                                                            </mjx-dbox>
-                                                          </mjx-frac>
-                                                        </mjx-mfrac>
-                                                        <mjx-mo
-                                                          className="mjx-n"
-                                                          space={4}
-                                                        >
-                                                          <mjx-c className="mjx-c3D" />
-                                                        </mjx-mo>
-                                                        <mjx-mfrac space={4}>
-                                                          <mjx-frac>
-                                                            <mjx-num>
-                                                              <mjx-nstrut />
-                                                              <mjx-mn
-                                                                className="mjx-n"
-                                                                size="s"
-                                                              >
-                                                                <mjx-c className="mjx-c31" />
-                                                              </mjx-mn>
-                                                            </mjx-num>
-                                                            <mjx-dbox>
-                                                              <mjx-dtable>
-                                                                <mjx-line />
-                                                                <mjx-row>
-                                                                  <mjx-den>
-                                                                    <mjx-dstrut />
-                                                                    <mjx-msub size="s">
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D445 TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-script
-                                                                        style={{
-                                                                          verticalAlign:
-                                                                            "-0.15em",
-                                                                        }}
-                                                                      >
-                                                                        <mjx-texatom
-                                                                          size="s"
-                                                                          texclass="ORD"
-                                                                        >
-                                                                          <mjx-mn className="mjx-n">
-                                                                            <mjx-c className="mjx-c31" />
-                                                                          </mjx-mn>
-                                                                        </mjx-texatom>
-                                                                      </mjx-script>
-                                                                    </mjx-msub>
-                                                                  </mjx-den>
-                                                                </mjx-row>
-                                                              </mjx-dtable>
-                                                            </mjx-dbox>
-                                                          </mjx-frac>
-                                                        </mjx-mfrac>
-                                                        <mjx-mo
-                                                          className="mjx-n"
-                                                          space={3}
-                                                        >
-                                                          <mjx-c className="mjx-c2B" />
-                                                        </mjx-mo>
-                                                        <mjx-mfrac space={3}>
-                                                          <mjx-frac>
-                                                            <mjx-num>
-                                                              <mjx-nstrut />
-                                                              <mjx-mn
-                                                                className="mjx-n"
-                                                                size="s"
-                                                              >
-                                                                <mjx-c className="mjx-c31" />
-                                                              </mjx-mn>
-                                                            </mjx-num>
-                                                            <mjx-dbox>
-                                                              <mjx-dtable>
-                                                                <mjx-line />
-                                                                <mjx-row>
-                                                                  <mjx-den>
-                                                                    <mjx-dstrut />
-                                                                    <mjx-msub size="s">
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D445 TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-script
-                                                                        style={{
-                                                                          verticalAlign:
-                                                                            "-0.15em",
-                                                                        }}
-                                                                      >
-                                                                        <mjx-texatom
-                                                                          size="s"
-                                                                          texclass="ORD"
-                                                                        >
-                                                                          <mjx-mn className="mjx-n">
-                                                                            <mjx-c className="mjx-c32" />
-                                                                          </mjx-mn>
-                                                                        </mjx-texatom>
-                                                                      </mjx-script>
-                                                                    </mjx-msub>
-                                                                  </mjx-den>
-                                                                </mjx-row>
-                                                              </mjx-dtable>
-                                                            </mjx-dbox>
-                                                          </mjx-frac>
-                                                        </mjx-mfrac>
-                                                        <mjx-mo
-                                                          className="mjx-n"
-                                                          space={3}
-                                                        >
-                                                          <mjx-c className="mjx-c2B" />
-                                                        </mjx-mo>
-                                                        <mjx-mo
-                                                          className="mjx-n"
-                                                          space={3}
-                                                        >
-                                                          <mjx-c className="mjx-c2026" />
-                                                        </mjx-mo>
-                                                        <mjx-mo
-                                                          className="mjx-n"
-                                                          space={2}
-                                                        >
-                                                          <mjx-c className="mjx-c2E" />
-                                                        </mjx-mo>
-                                                        <mjx-mo
-                                                          className="mjx-n"
-                                                          space={2}
-                                                        >
-                                                          <mjx-c className="mjx-c2E" />
-                                                        </mjx-mo>
-                                                        <mjx-mo
-                                                          className="mjx-n"
-                                                          space={2}
-                                                        >
-                                                          <mjx-c className="mjx-c2B" />
-                                                        </mjx-mo>
-                                                        <mjx-mfrac>
-                                                          <mjx-frac>
-                                                            <mjx-num>
-                                                              <mjx-nstrut />
-                                                              <mjx-mn
-                                                                className="mjx-n"
-                                                                size="s"
-                                                              >
-                                                                <mjx-c className="mjx-c31" />
-                                                              </mjx-mn>
-                                                            </mjx-num>
-                                                            <mjx-dbox>
-                                                              <mjx-dtable>
-                                                                <mjx-line />
-                                                                <mjx-row>
-                                                                  <mjx-den>
-                                                                    <mjx-dstrut />
-                                                                    <mjx-msub size="s">
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D445 TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-script
-                                                                        style={{
-                                                                          verticalAlign:
-                                                                            "-0.15em",
-                                                                        }}
-                                                                      >
-                                                                        <mjx-texatom
-                                                                          size="s"
-                                                                          texclass="ORD"
-                                                                        >
-                                                                          <mjx-mi className="mjx-i">
-                                                                            <mjx-c className="mjx-c1D45B TEX-I" />
-                                                                          </mjx-mi>
-                                                                        </mjx-texatom>
-                                                                      </mjx-script>
-                                                                    </mjx-msub>
-                                                                  </mjx-den>
-                                                                </mjx-row>
-                                                              </mjx-dtable>
-                                                            </mjx-dbox>
-                                                          </mjx-frac>
-                                                        </mjx-mfrac>
-                                                        <mjx-tstrut />
-                                                      </mjx-mtd>
-                                                    </mjx-mtr>
-                                                  </mjx-itable>
-                                                </mjx-table>
-                                              </mjx-mtable>
-                                            </mjx-math>
-                                            <mjx-assistive-mml
-                                              unselectable="on"
-                                              display="inline"
-                                            >
-                                              <math xmlns="http://www.w3.org/1998/Math/MathML">
-                                                <mtable
-                                                  columnalign="left"
-                                                  columnspacing="1em"
-                                                  rowspacing="4pt"
-                                                >
-                                                  <mtr>
-                                                    <mtd>
-                                                      <mfrac>
-                                                        <mn>1</mn>
-                                                        <msub>
-                                                          <mi>R</mi>
-                                                          <mrow data-mjx-texclass="ORD">
-                                                            <mi>t</mi>
-                                                            <mi>o</mi>
-                                                            <mi>t</mi>
-                                                            <mi>a</mi>
-                                                            <mi>l</mi>
-                                                          </mrow>
-                                                        </msub>
-                                                      </mfrac>
-                                                      <mo>=</mo>
-                                                      <mfrac>
-                                                        <mn>1</mn>
-                                                        <msub>
-                                                          <mi>R</mi>
-                                                          <mrow data-mjx-texclass="ORD">
-                                                            <mn>1</mn>
-                                                          </mrow>
-                                                        </msub>
-                                                      </mfrac>
-                                                      <mo>+</mo>
-                                                      <mfrac>
-                                                        <mn>1</mn>
-                                                        <msub>
-                                                          <mi>R</mi>
-                                                          <mrow data-mjx-texclass="ORD">
-                                                            <mn>2</mn>
-                                                          </mrow>
-                                                        </msub>
-                                                      </mfrac>
-                                                      <mo>+</mo>
-                                                      <mo>…</mo>
-                                                      <mo>.</mo>
-                                                      <mo>.</mo>
-                                                      <mo>+</mo>
-                                                      <mfrac>
-                                                        <mn>1</mn>
-                                                        <msub>
-                                                          <mi>R</mi>
-                                                          <mrow data-mjx-texclass="ORD">
-                                                            <mi>n</mi>
-                                                          </mrow>
-                                                        </msub>
-                                                      </mfrac>
-                                                    </mtd>
-                                                  </mtr>
-                                                </mtable>
-                                              </math>
-                                            </mjx-assistive-mml>
-                                          </mjx-container>
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
+                                <Image
+                              src={img_2}
+                              width={500}
+                              height={50}
+                              alt="Resistors in Series Formula"
+                              />
                                 <p>Where,</p>
-                                <ul>
-                                  <li>
-                                    <div className="mathjax-scroll">
-                                      <mjx-container
-                                        className="MathJax CtxtMenu_Attached_0"
-                                        jax="CHTML"
-                                        tabIndex={0}
-                                        ctxtmenu_counter={1}
-                                        style={{
-                                          fontSize: "123.9%",
-                                          position: "relative",
-                                        }}
-                                      >
-                                        <mjx-math
-                                          className="MJX-TEX"
-                                          aria-hidden="true"
-                                        >
-                                          <mjx-mtable
-                                            style={{ minWidth: "22.318em" }}
-                                          >
-                                            <mjx-table>
-                                              <mjx-itable>
-                                                <mjx-mtr>
-                                                  <mjx-mtd
-                                                    style={{
-                                                      textAlign: "left",
-                                                    }}
-                                                  >
-                                                    <mjx-mfrac>
-                                                      <mjx-frac>
-                                                        <mjx-num>
-                                                          <mjx-nstrut />
-                                                          <mjx-mn
-                                                            className="mjx-n"
-                                                            size="s"
-                                                          >
-                                                            <mjx-c className="mjx-c31" />
-                                                          </mjx-mn>
-                                                        </mjx-num>
-                                                        <mjx-dbox>
-                                                          <mjx-dtable>
-                                                            <mjx-line />
-                                                            <mjx-row>
-                                                              <mjx-den>
-                                                                <mjx-dstrut />
-                                                                <mjx-msub size="s">
-                                                                  <mjx-mi className="mjx-i">
-                                                                    <mjx-c className="mjx-c1D445 TEX-I" />
-                                                                  </mjx-mi>
-                                                                  <mjx-script
-                                                                    style={{
-                                                                      verticalAlign:
-                                                                        "-0.15em",
-                                                                    }}
-                                                                  >
-                                                                    <mjx-texatom
-                                                                      size="s"
-                                                                      texclass="ORD"
-                                                                    >
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D461 TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D45C TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D461 TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D44E TEX-I" />
-                                                                      </mjx-mi>
-                                                                      <mjx-mi className="mjx-i">
-                                                                        <mjx-c className="mjx-c1D459 TEX-I" />
-                                                                      </mjx-mi>
-                                                                    </mjx-texatom>
-                                                                  </mjx-script>
-                                                                </mjx-msub>
-                                                              </mjx-den>
-                                                            </mjx-row>
-                                                          </mjx-dtable>
-                                                        </mjx-dbox>
-                                                      </mjx-frac>
-                                                    </mjx-mfrac>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D456 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D460 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D461 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c210E TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D452 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D460 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D462 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D45A TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D45C TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D453 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D44E TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D459 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D459 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D461 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c210E TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D452 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D456 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D45B TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D451 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D456 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D463 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D456 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D451 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D462 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D44E TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D459 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mstyle>
-                                                      <mjx-mspace
-                                                        style={{
-                                                          width: "0.167em",
-                                                        }}
-                                                      />
-                                                    </mjx-mstyle>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D45F TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D452 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D460 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D456 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D460 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D461 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D44E TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D45B TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D450 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D452 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mi className="mjx-i">
-                                                      <mjx-c className="mjx-c1D460 TEX-I" />
-                                                    </mjx-mi>
-                                                    <mjx-mo className="mjx-n">
-                                                      <mjx-c className="mjx-c2E" />
-                                                    </mjx-mo>
-                                                    <mjx-tstrut />
-                                                  </mjx-mtd>
-                                                </mjx-mtr>
-                                              </mjx-itable>
-                                            </mjx-table>
-                                          </mjx-mtable>
-                                        </mjx-math>
-                                        <mjx-assistive-mml
-                                          unselectable="on"
-                                          display="inline"
-                                        >
-                                          <math xmlns="http://www.w3.org/1998/Math/MathML">
-                                            <mtable
-                                              columnalign="left"
-                                              columnspacing="1em"
-                                              rowspacing="4pt"
-                                            >
-                                              <mtr>
-                                                <mtd>
-                                                  <mfrac>
-                                                    <mn>1</mn>
-                                                    <msub>
-                                                      <mi>R</mi>
-                                                      <mrow data-mjx-texclass="ORD">
-                                                        <mi>t</mi>
-                                                        <mi>o</mi>
-                                                        <mi>t</mi>
-                                                        <mi>a</mi>
-                                                        <mi>l</mi>
-                                                      </mrow>
-                                                    </msub>
-                                                  </mfrac>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>i</mi>
-                                                  <mi>s</mi>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>t</mi>
-                                                  <mi>h</mi>
-                                                  <mi>e</mi>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>s</mi>
-                                                  <mi>u</mi>
-                                                  <mi>m</mi>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>o</mi>
-                                                  <mi>f</mi>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>a</mi>
-                                                  <mi>l</mi>
-                                                  <mi>l</mi>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>t</mi>
-                                                  <mi>h</mi>
-                                                  <mi>e</mi>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>i</mi>
-                                                  <mi>n</mi>
-                                                  <mi>d</mi>
-                                                  <mi>i</mi>
-                                                  <mi>v</mi>
-                                                  <mi>i</mi>
-                                                  <mi>d</mi>
-                                                  <mi>u</mi>
-                                                  <mi>a</mi>
-                                                  <mi>l</mi>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mstyle scriptlevel={0}>
-                                                    <mspace width="0.167em" />
-                                                  </mstyle>
-                                                  <mi>r</mi>
-                                                  <mi>e</mi>
-                                                  <mi>s</mi>
-                                                  <mi>i</mi>
-                                                  <mi>s</mi>
-                                                  <mi>t</mi>
-                                                  <mi>a</mi>
-                                                  <mi>n</mi>
-                                                  <mi>c</mi>
-                                                  <mi>e</mi>
-                                                  <mi>s</mi>
-                                                  <mo>.</mo>
-                                                </mtd>
-                                              </mtr>
-                                            </mtable>
-                                          </math>
-                                        </mjx-assistive-mml>
-                                      </mjx-container>
-                                    </div>{" "}
-                                  </li>
-                                </ul>
+                                <Image
+                              src={img_3}
+                              width={500}
+                              height={50}
+                              alt="Resistors in Series Formula"
+                              />
                                 <div id="applications-of-resistor">
                                   <h2>
                                     <span style={{ color: "#800080" }}>
@@ -1290,12 +531,12 @@ export default function Byjus_article() {
                                       </h2>
                                       <div className="faq-schema">
                                         <div
-                                          itemScope=""
+                                          
                                           itemType="https://schema.org/FAQPage"
                                         >
                                           <section
                                             className="faq-item"
-                                            itemScope=""
+                                            
                                             itemProp="mainEntity"
                                             itemType="https://schema.org/Question"
                                           >
@@ -1309,7 +550,7 @@ export default function Byjus_article() {
                                               </h3>
                                               <div
                                                 itemProp="acceptedAnswer"
-                                                itemScope=""
+                                                
                                                 itemType="https://schema.org/Answer"
                                               >
                                                 <div itemProp="text">
@@ -1326,7 +567,7 @@ export default function Byjus_article() {
                                           </section>
                                           <section
                                             className="faq-item"
-                                            itemScope=""
+                                            
                                             itemProp="mainEntity"
                                             itemType="https://schema.org/Question"
                                           >
@@ -1340,7 +581,7 @@ export default function Byjus_article() {
                                               </h3>
                                               <div
                                                 itemProp="acceptedAnswer"
-                                                itemScope=""
+                                                
                                                 itemType="https://schema.org/Answer"
                                               >
                                                 <div itemProp="text">
@@ -1354,7 +595,7 @@ export default function Byjus_article() {
                                           </section>
                                           <section
                                             className="faq-item"
-                                            itemScope=""
+                                            
                                             itemProp="mainEntity"
                                             itemType="https://schema.org/Question"
                                           >
@@ -1369,7 +610,7 @@ export default function Byjus_article() {
                                               </h3>
                                               <div
                                                 itemProp="acceptedAnswer"
-                                                itemScope=""
+                                                
                                                 itemType="https://schema.org/Answer"
                                               >
                                                 <div itemProp="text">
@@ -1382,7 +623,7 @@ export default function Byjus_article() {
                                           </section>
                                           <section
                                             className="faq-item"
-                                            itemScope=""
+                                            
                                             itemProp="mainEntity"
                                             itemType="https://schema.org/Question"
                                           >
@@ -1397,7 +638,7 @@ export default function Byjus_article() {
                                               </h3>
                                               <div
                                                 itemProp="acceptedAnswer"
-                                                itemScope=""
+                                                
                                                 itemType="https://schema.org/Answer"
                                               >
                                                 <div itemProp="text">
@@ -1412,7 +653,7 @@ export default function Byjus_article() {
                                           </section>
                                           <section
                                             className="faq-item"
-                                            itemScope=""
+                                            
                                             itemProp="mainEntity"
                                             itemType="https://schema.org/Question"
                                           >
@@ -1427,7 +668,7 @@ export default function Byjus_article() {
                                               </h3>
                                               <div
                                                 itemProp="acceptedAnswer"
-                                                itemScope=""
+                                                
                                                 itemType="https://schema.org/Answer"
                                               >
                                                 <div itemProp="text">
