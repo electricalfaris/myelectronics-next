@@ -12,25 +12,25 @@ export default function SubNav() {
       <div className="subnav-content">
         <Link
           className={pathname === "/resistor/introduction" ? "active" : ""}
-          href="/resistor/introduction/"
+          href="/diode/introduction/"
         >
           Introduction
         </Link>
         <Link
           className={pathname === "/resistor/test" ? "active" : ""}
-          href="/resistor/test/"
+          href="/diode/test/"
         >
           Test
         </Link>
         <Link
           className={pathname === "/resistor/pictures" ? "active" : ""}
-          href="/resistor/pictures/"
+          href="/diode/pictures/"
         >
           Pictures
         </Link>
         <Link
           className={pathname === "/resistor/links" ? "active" : ""}
-          href="/resistor/links/"
+          href="/diode/links/"
         >
           Links
         </Link>
