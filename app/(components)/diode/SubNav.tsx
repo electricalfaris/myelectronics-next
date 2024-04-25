@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "./SubNav.css";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 export default function SubNav() {
   const pathname = usePathname();
 
